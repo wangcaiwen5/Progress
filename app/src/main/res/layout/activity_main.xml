@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.wcw.progresslibrary.IProgressBar
+        android:id="@+id/ipb"
+        android:progress="20"
+        android:max="100"
+        android:progressTint="@color/green"
+        android:layout_margin="10dp"
+        android:progressDrawable="@drawable/pb_bg"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <com.example.wcw.progresslibrary.IProgressBar
+        android:id="@+id/ipb2"
+        android:progress="20"
+        android:max="100"
+        android:layout_margin="10dp"
+        android:progressDrawable="@drawable/pb_bg"
+        android:progressTint="@color/red"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <com.example.wcw.progresslibrary.IProgressBar
+        android:id="@+id/ipb3"
+        android:progress="20"
+        android:layout_margin="10dp"
+        android:max="100"
+        android:progressDrawable="@drawable/pb_bg"
+        android:progressTint="@color/red"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <com.example.wcw.progresslibrary.IProgressBar
+        android:id="@+id/ipb4"
+        android:progress="20"
+        android:layout_margin="10dp"
+        android:max="100"
+        android:layout_marginTop="10dp"
+        android:progressDrawable="@drawable/pb_bg"
+        android:progressTint="@color/gray"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+</LinearLayout>
